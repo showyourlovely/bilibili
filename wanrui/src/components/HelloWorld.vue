@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <router-link to="/regist">注册</router-link>
+    <router-link to="/login">登录</router-link>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
