@@ -11,9 +11,14 @@
   },
   "dependencies": {
     "mint-ui": "^2.2.13",
+<<<<<<< HEAD
     "swiper": "^4.1.6",
     "v-ajax": "^1.0.6",
     "vue": "^2.5.2"
+=======
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
+>>>>>>> 045126ac0841b1285ed0f9c8130fe6840aab2c68
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
