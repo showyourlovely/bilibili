@@ -6,7 +6,9 @@
 		</header>
 		<form action="" id="rform">
 			<input type="text" placeholder="你的手机号/邮箱" class="nput">
+			<span class="notice">请输入注册时用的邮箱或者手机号呀</span>
 			<input type="text" placeholder="密码" class="nput">
+			<span class="notice">喵，你没输入密码么?</span>
 			<div class="wj">
 				<a href="#">忘记密码?</a>
 			</div>
@@ -91,6 +93,7 @@ export default {
 	    overflow: hidden;
 	    box-sizing: border-box;
 	    padding: 0.1rem;
+	    font-size: 0.16rem;
 	}
 	.lat{
 		display: flex;
@@ -170,5 +173,11 @@ export default {
 	}
 	.dsf a img{
 		width: 100%;
+	}
+	.notice{
+		font-size: 0.16rem;
+		color: #de698c;
+		padding-bottom: 0.08rem;
+		padding-left: 0.02rem;
 	}
 </style>

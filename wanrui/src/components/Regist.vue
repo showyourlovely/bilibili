@@ -6,7 +6,9 @@
 		</header>
 		<form action="" id="rform">
 			<input type="text" placeholder="您的昵称，例：哔哩哔哩" class="nput">
+			<span class="notice">请告诉我你的昵称吧</span>
 			<input type="text" placeholder="您的密码，6-16个字符组成，区分大小写" class="nput">
+			<span class="notice">密码长度不合法</span>
 			<select name="" id="" class="nput">
 				<option value="">中国大陆</option>
 				<option value="">香港特别行政区</option>
@@ -24,10 +26,12 @@
 				<option value="">日本</option>
 			</select>
 			<input type="text" placeholder="您的手机" class="nput">
+			<span class="notice">输个手机号，以后方便找回密码哦！</span>
 			<div class="lat">
 				<input type="text" placeholder="短信验证码" class="nput last">
 				<input type="button" value="获取短信验证码" class="take">
 			</div>
+			<span class="notice">验证码不能为空</span>
 			<p>继续注册 , 表明您已同意
 				<a href="#">《bilibli网会员注册协议》</a>
 			</p>
@@ -101,6 +105,7 @@ export default {
 	    overflow: hidden;
 	    box-sizing: border-box;
 	    padding: 0.1rem;
+	    font-size: 0.16rem;
 	}
 	.lat{
 		display: flex;
@@ -145,5 +150,11 @@ export default {
 	.bta{
 		background: #fff;
 		color: #00a1d6;
+	}
+	.notice{
+		font-size: 0.16rem;
+		color: #de698c;
+		padding-bottom: 0.08rem;
+		padding-left: 0.02rem;
 	}
 </style>
