@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+    <topHeader id="top-header"/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import topHeader from './components/top-header';
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    topHeader
+  }
 }
 </script>
 
@@ -18,7 +23,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-  html,body{height: 100%;margin: 0;padding: 0;}
-  html{font-size: 26.67vw}
+  html,body{height: 100%;width:100%;margin: 0;padding: 0;}
+  html{font-size: 26.67vw;}
   body{font-size: 0.16rem;}
+  #top-header{width:100%;position:fixed;top: 0;left: 0;background: #fff;z-index: 9999;}
 </style>
