@@ -25,8 +25,6 @@ export default {
   mounted() {
     axios.get("/v4/api/film/now-playing?__t=1520933548733&page=1&count=5")
     .then((res)=>{
-      console.log(res);
-      console.log(res.data.data);
       this.list=res.data.data.films;
     })
   },

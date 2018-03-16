@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state:{
-  	films:[]
+	  films: ["电影一","电影二","电影三","电影四"]
   },
   mutations: {
   	setFilmsDataM: function (state,data) {

@@ -11,6 +11,9 @@ export default {
   name: 'App',
   components:{
     topHeader
+  },
+  mounted(){
+    console.log(this.$store.state.films)
   }
 }
 </script>
